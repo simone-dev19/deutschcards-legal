@@ -1,0 +1,15 @@
+title: DeutschCards — Legal
+description: Informativa sulla privacy e supporto dell'app DeutschCards
+theme: jekyll-theme-minimal
+markdown: kramdown
+permalink: /:basename
+
+# Header / footer minimi — niente logo, niente repo link (è una pagina legale)
+show_downloads: false
+
+# Esclude dal sito i file operativi interni
+exclude:
+  - README.md
+  - AGENTS.md
+  - LOG_AI.md
+  - _config.yml
