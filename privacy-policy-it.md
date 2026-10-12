@@ -5,7 +5,7 @@ title: Informativa sulla privacy — DeutschCards
 
 # Informativa sulla privacy — DeutschCards
 
-**Ultima modifica:** 5 ottobre 2026
+**Ultima modifica:** 13 ottobre 2026
 **App:** DeutschCards (iOS)
 **Email di contatto:** simonepirovanog@gmail.com
 
@@ -15,9 +15,11 @@ title: Informativa sulla privacy — DeutschCards
 
 DeutschCards **non raccoglie nessun dato**. Tutto quello che fai nell'app resta sul tuo dispositivo.
 
-Non c'è un account, non c'è una registrazione, non ci sono server dell'app. L'app non si collega a internet.
+Non c'è un account, non c'è una registrazione, non ci sono server dell'app. L'app non invia nulla all'autore.
 
-Nessuna analisi d'uso, nessun tracciamento, nessuna pubblicità, nessun servizio di terzi.
+L'unica funzione che può usare internet è il controllo della pronuncia, che passa dal riconoscimento vocale di Apple e si attiva solo quando tocchi il microfono (vedi sotto).
+
+Nessuna analisi d'uso, nessun tracciamento, nessuna pubblicità, nessun servizio di terzi dentro l'app.
 
 ## Cosa viene salvato sul dispositivo
 
@@ -32,6 +34,14 @@ Se accendi il promemoria giornaliero, l'app programma una notifica locale sul te
 ## Pronuncia
 
 I pulsanti di ascolto usano la sintesi vocale di iOS, con le voci installate sul dispositivo.
+
+## Microfono e riconoscimento vocale
+
+Il controllo della pronuncia usa il microfono e il riconoscimento vocale di Apple. Si accendono solo quando tocchi il pulsante del microfono e si spengono quando hai finito di parlare. La prima volta iOS ti chiede il permesso; puoi toglierlo quando vuoi in Impostazioni > Privacy e sicurezza > Microfono e > Riconoscimento vocale.
+
+Quello che dici viene trasformato in testo da Apple. A seconda del dispositivo, della lingua e delle impostazioni di iOS, questo può avvenire sul telefono oppure l'audio può essere inviato ai server di Apple: l'app non impone l'elaborazione solo sul dispositivo. Per quello che fa Apple con questi dati vale l'informativa di Apple ([Siri, Dettatura e privacy](https://www.apple.com/legal/privacy/data/it/ask-siri-dictation/)).
+
+Il testo riconosciuto serve solo a confrontarlo, in quel momento, con la parola da pronunciare. L'app non registra né salva l'audio o il testo, e non li invia all'autore dell'app.
 
 ## Cancellare o portare via i dati
 

@@ -53,3 +53,25 @@ Ogni voce descrive un intervento di un agente AI in questa cartella. Le voci pi�
 **Da sapere / aperto:** `gh` ha due account: `simon-act` (repository dell'app) e `simone-dev19` (pagine legali), si cambia con `gh auth switch --user <nome>`; dopo questa pubblicazione è attivo `simone-dev19`. Il commit delle pagine legali ha come autore l'identità automatica del Mac (`simonepirovano@simones-mac-studio.home`), visibile nel repository pubblico. Restano: app su App Store Connect, Archive in Xcode, scheda store, invio.
 
 **Sessione:** https://claude.ai/code/session_01EKQwYy7Ub1A9SZscyVEZFu
+
+---
+
+## 2026-10-05 15:39 — Autore del commit corretto, istruzioni di aggiornamento nel README
+
+**Agente:** Claude (Cowork) · Claude Opus 5.5
+
+**Richiesta:** Simone ha chiesto cosa fare dell'identità automatica del Mac finita nel commit pubblico.
+
+**Cosa ho fatto:** indicato i comandi, lanciati da Simone: nome ed email di git impostati in questa cartella (indirizzo anonimo `users.noreply.github.com` di `simone-dev19`), commit riscritto con `--amend --reset-author` e caricato con `push --force`. Poi ho aggiunto al README la sezione "Aggiornare le pagine".
+
+**File toccati:**
+| Azione | Percorso (relativo alla cartella) | Note |
+|---|---|---|
+| modificato | `README.md` | sezione "Aggiornare le pagine" |
+| modificato | `LOG_AI.md` | questa voce |
+
+**Risultati:** su GitHub `main` è passato da `6eb33cf` a `98e2b32` (unico commit, stesso contenuto più la voce di registro precedente). I primi due tentativi di push erano falliti con 403: `git push` usava la credenziale di `simon-act` nel portachiavi anche con `simone-dev19` attivo in `gh`; ha funzionato passando a git l'helper di `gh` solo per quel comando.
+
+**Da sapere / aperto:** README e questa voce non sono ancora in commit: vanno caricati con i comandi della nuova sezione del README.
+
+**Sessione:** https://claude.ai/code/session_01EKQwYy7Ub1A9SZscyVEZFu

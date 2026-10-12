@@ -19,4 +19,17 @@ gh repo create simone-dev19/deutschcards-legal --public --source . --push
 gh api -X POST repos/simone-dev19/deutschcards-legal/pages -f 'source[branch]=main' -f 'source[path]=/'
 ```
 
-Dopo uno o due minuti le pagine sono online. Per aggiornarle: modifica i file, `git commit`, `git push`.
+Dopo uno o due minuti le pagine sono online (pubblicate il 5 ottobre 2026).
+
+## Aggiornare le pagine
+
+Sul Mac Studio `gh` ha due account (`simon-act` per il repository dell'app, `simone-dev19` per queste pagine) e nel portachiavi è salvata la credenziale di `simon-act`: un `git push` semplice viene rifiutato con errore 403. Usare:
+
+```bash
+gh auth switch --user simone-dev19
+cd ~/Documents/Claude-Projects/deutschcards-legal
+git add -A && git commit -m "Aggiornamento pagine"
+git -c credential.helper= -c credential.helper='!gh auth git-credential' push
+```
+
+In questa cartella nome ed email di git sono già impostati sull'indirizzo anonimo di `simone-dev19`. Per tornare a lavorare sul repository dell'app: `gh auth switch --user simon-act`.

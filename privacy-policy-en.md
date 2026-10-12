@@ -5,7 +5,7 @@ title: Privacy Policy — DeutschCards
 
 # Privacy Policy — DeutschCards
 
-**Last updated:** 5 October 2026
+**Last updated:** 13 October 2026
 **App:** DeutschCards (iOS)
 **Contact email:** simonepirovanog@gmail.com
 
@@ -15,9 +15,11 @@ title: Privacy Policy — DeutschCards
 
 DeutschCards **collects no data**. Everything you do in the app stays on your device.
 
-There is no account, no sign-up and no app server. The app does not connect to the internet.
+There is no account, no sign-up and no app server. The app sends nothing to its author.
 
-No usage analytics, no tracking, no advertising, no third-party services.
+The only feature that may use the internet is the pronunciation check, which goes through Apple's speech recognition and only starts when you tap the microphone (see below).
+
+No usage analytics, no tracking, no advertising, no third-party services inside the app.
 
 ## What is stored on the device
 
@@ -32,6 +34,14 @@ If you turn on the daily reminder, the app schedules a local notification on the
 ## Pronunciation
 
 The listen buttons use the iOS speech synthesis with the voices installed on the device.
+
+## Microphone and speech recognition
+
+The pronunciation check uses the microphone and Apple's speech recognition. They only turn on when you tap the microphone button and turn off when you have finished speaking. The first time, iOS asks for your permission; you can withdraw it at any time in Settings > Privacy & Security > Microphone and > Speech Recognition.
+
+What you say is turned into text by Apple. Depending on the device, the language and your iOS settings, this may happen on the phone or the audio may be sent to Apple's servers: the app does not force on-device-only processing. What Apple does with this data is covered by Apple's own policy ([Siri, Dictation & Privacy](https://www.apple.com/legal/privacy/data/en/ask-siri-dictation/)).
+
+The recognised text is only used to compare it, there and then, with the word you are practising. The app does not record or store the audio or the text, and does not send them to the app's author.
 
 ## Deleting or taking your data with you
 
